@@ -20,10 +20,6 @@ docker image ls
 
 docker run -t -p 8000:80 docker-php-helloworld
 
-<img width="1286" alt="Screenshot 2022-12-22 at 3 53 57 pm" src="https://user-images.githubusercontent.com/34917417/209096097-b5a84438-e217-4c0b-b7e8-870d327326b0.png">
-
-![Screenshot 2022-12-22 at 3 55 02 pm](https://user-images.githubusercontent.com/34917417/209096244-1a938ae3-71c0-4f07-8d3e-e076822373d8.png)
-
 ~~~  
   
 ## Authors  

@@ -18,7 +18,7 @@ docker pull sithvothykiv/docker-php-helloworld
 
 docker build -t docker-php-helloworld .
 
-docker run -t -p 8000:80 sithvothykiv/docker-php-helloworld
+docker run -t -p 8000:80 docker-php-helloworld
 
 ~~~  
   

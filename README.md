@@ -3,8 +3,8 @@
 This is a PHP demo application. 
 
 
-# Resources
-https://hub.docker.com/r/webdevops/php-nginx/tags
+## Resources Dockerhub
+
 https://hub.docker.com/r/sithvothykiv/docker-php-helloworld
 #
 

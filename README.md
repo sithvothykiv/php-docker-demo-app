@@ -2,7 +2,9 @@
 # PHP Docker Demo App
 This is a PHP demo application. 
 
-https://hub.docker.com/r/webdevops/php-nginx/tags
+
+## Resources Dockerhub
+
 https://hub.docker.com/r/sithvothykiv/docker-php-helloworld
 #
 
@@ -14,9 +16,9 @@ To get started, Run docker command
 ~~~javascript  
 docker pull sithvothykiv/docker-php-helloworld
 
-docker build -t sithvothykiv/docker-php-helloworld .
+docker image ls
 
-docker run -t -p 8000:80 sithvothykiv/docker-php-helloworld
+docker run -t -p 8000:80 docker-php-helloworld
 
 ~~~  
   
@@ -34,19 +36,19 @@ docker run -t -p 8000:80 sithvothykiv/docker-php-helloworld
 Clone the project  
 
 ~~~bash  
-  git clone https://link-to-project
+  git clone https://github.com/sithvothykiv/php-docker-demo-app.git
 ~~~
 
 Go to the project directory  
 
 ~~~bash  
-  cd my_app
+  cd php-docker-demo-app
 ~~~
 
 Pull Repository from DockerHub  
 
 ~~~bash  
-docker build -t my_app .
+docker build -t php-docker-demo-app .
 
 docker image ls
 
